@@ -7,7 +7,7 @@
 		url('../fonts/bpicons/bpicons.woff') format('woff'),
 		url('../fonts/bpicons/bpicons.ttf') format('truetype'),
 		url('../fonts/bpicons/bpicons.svg#bpicons') format('svg');
-		@import url('https://fonts.googleapis.com/css?family=Oswald');
+		@import url('https://fonts.googleapis.com/css?family=Oswald|Ubuntu');
 	font-weight: normal;
 	font-style: normal;
 } /* Made with http://icomoon.io/ */
@@ -21,15 +21,38 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #fff;
-    background: #000000;
+    color: black;
+    background: white;
+		font-size:0.em;
 }
 h1 {
 	font-family: 'Oswald', sans-serif;
 	color:rgb(51, 153, 255);
 }
 
-h2 {}
+h2 {
+	text-decoration: underline;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.pseudo span {
+	color: #800000;
+}
+
+.pseudo{
+	line-height:2em;
+	font-size:0.9em;
+}
+.contexte {
+	color:
+}
+ul{
+	list-style:none
+}
+
+.name {
+	color:#800000
+}
 
 a {
 	color: #f0f0f0;
