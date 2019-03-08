@@ -1,13 +1,14 @@
 /* General Blueprint Style */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url('https://fonts.googleapis.com/css?family=Oswald|Ubuntu');
 @font-face {
+
 	font-family: 'bpicons';
 	src:url('../fonts/bpicons/bpicons.eot');
 	src:url('../fonts/bpicons/bpicons.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/bpicons/bpicons.woff') format('woff'),
 		url('../fonts/bpicons/bpicons.ttf') format('truetype'),
 		url('../fonts/bpicons/bpicons.svg#bpicons') format('svg');
-		@import url('https://fonts.googleapis.com/css?family=Oswald|Ubuntu');
 	font-weight: normal;
 	font-style: normal;
 } /* Made with http://icomoon.io/ */
